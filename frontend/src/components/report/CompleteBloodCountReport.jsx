@@ -1,6 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import "./Report.css"; // Import CSS file for styling
+import "./Report.css"; 
 
 const CVC = () => {
   const history = useHistory();

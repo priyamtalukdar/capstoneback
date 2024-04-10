@@ -14,7 +14,7 @@ import CardiovascularReport from "../report/CardiovascularReport"; // Import the
 import BloodPressureReport from "../report/BloodPressureReport"; // Import the Diet component
 import CompleteBloodCountReport from "../report/CompleteBloodCountReport"; // Import the Diet component
 import KidneyFunctionTestReport from "../report/KidneyFunctionTestReport"; // Import the Diet component
-import Diet from "../diet/Diet"; // Import the Diet component
+import DiabetesDiet from "../diet/DiabetesDiet"; // Import the Diet component
 import DietnoDiabetes from "../diet/Dietnodiabetes"; // Import the Diet component
 import Dietcv from "../diet/Dietcv"; // Import the Diet component
 import Dietp from "../diet/Dietp"; // Import the Diet component
@@ -40,7 +40,7 @@ const Pages = () => {
           <Route exact path="/blog" component={Blog} />    
           <Route exact path="/contact" component={Contact} />
 
-          <Route exact path="/diet" component={Diet} />
+          <Route exact path="/diabetesdiet" component={DiabetesDiet} />
           <Route exact path="/nodiabetesdiet" component={DietnoDiabetes} />
           <Route exact path="/dietcv" component={Dietcv} />
           <Route exact path="/dietp" component={Dietp} />

@@ -38,7 +38,7 @@ const SugarReport = () => {
       const prediction = res.data.prediction;
       if (prediction === "Diabetes") {
         // Redirect to a page for users diagnosed with diabetes
-        history.push('/diet');
+        history.push('/diabetesdiet');
       } else {
         // Redirect to a page for users not diagnosed with diabetes
         history.push('/nodiabetesdiet');
