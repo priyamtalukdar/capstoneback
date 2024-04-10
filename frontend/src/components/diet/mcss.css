@@ -19,6 +19,12 @@ body {
   h1 {
     text-align: center;
     color: #333;
+    margin : 20px;
+  }
+  /* Title styles */
+  h2 {
+   
+    margin : 20px;
   }
   
   /* Food container styles */
